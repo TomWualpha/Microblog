@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Microblig</title>
+	<link rel="stylesheet" type="text/css" href="../static/CSS/style.css"> <!-- might have an issue later -->
+												<!-- alternative is to remove the .. infront of the /static-->
+</head>
+<body>
+	<header class="navbar">
+		<div class="navbar__brand">
+		<img class="navbar__logo" src="../static/img/logo.svg" alt="microblog-logo">Microblog
+		                         <!-- might have an issue later -->
+		</div>
+		<ul class="navbar__navigation">
+			<li class="navbar__navigation-item"><a href="#" class="navbar__link">Recent</a> </li>
+			<li class="navbar__navigation-item"><a href="#" class="navbar__link">Calendar</a> </li>
+		</ul>
+	</header>
+	<main class="main">
+		<section>
+			<h1>Add new entry</h1>
+			<form class="form">
+				<p class="form__input">
+				<label for="entry" class="form__label">Entry content</label> <br>
+				<textarea name="content"  id="entry"  class="form__textarea" placeholder="enter your text here!!">				
+				</textarea>
+				</p>
+				
+				<button type="submit" class="form__submit">Add entry</button>
+			</form>
+		</section>
+		<section>
+			<h1>Recent posts</h1>
+			<article class="entry">
+				<div>
+					<h2 class="entry__title">A bit of a chill day</h2>
+					<time class="entry__date" datetime="15-12-2022"> * Dec 15th</time>
+				</div>
+				<p class="entry__content"> Still in design phases today, not much coding done excep for some HTML</p>
+					
+			</article>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__content">
+			<section class="left">
+				<a href="" class="footer__item">Made by Tom Wu</a>
+				<a href="" class="footer__item">Check out my other projects</a>
+			</section>
+			<section class="right">
+				<div class="footer__column">
+					<a href="" class="footer__item">Recent</a>
+					<a href="" class="footer__item">Calendar</a>
+				</div>	
+				<div class="footer__column">
+					<a href="" class="footer__item">About</a>
+					<a href="" class="footer__item">How this was made</a>
+				</div>
+			</section>
+
+			
+			
+		</div>
+	</footer>
+</body>
+</html>
